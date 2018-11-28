@@ -34,7 +34,7 @@ window.onload = function () {
         if (number === 0) {
             clearInterval(counter);
             setTimeout(function() {
-                alert("Times up! Please wait while we reset the game! ");
+                alert("Times up! Please click ok to reset the game! ");
                 reset();
             }, 200)
         }
@@ -108,7 +108,7 @@ window.onload = function () {
             }
             else {
                 setTimeout(function() {
-                    alert("Game Over! Please wait while the game resets! ");
+                    alert("Game Over! Please click ok to reset the game! ");
                     reset();
                 }, 100)
 
